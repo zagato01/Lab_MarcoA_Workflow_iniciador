@@ -19,6 +19,6 @@ jobs:
     strategy:
       matrix:
         nodeversion: [Uso1Remoto, Uso2Remoto, Uso3Remoto, Uso4Remoto]
-    uses: zagato01/Lab_MarcoA_WorkflowReusable./.github/workflows/reusable-workflow-MarcoA.yml@main
+    uses: zagato01/Lab_MarcoA_WorkflowReusable/.github/workflows/reusable-workflow-MarcoA.yml@main
     with:
       node: ${{ matrix.nodeversion }}
